@@ -1,0 +1,27 @@
+{
+  "name": "downloadimages",
+  "version": "1.0.0",
+  "description": "To get URL from reading CSV file column and after requesting url to download images.",
+  "main": "downloadSingleImage.js",
+  "scripts": {
+    "start": "node downloadSingleImage.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagardere/downloadImages.git"
+  },
+  "keywords": [
+    "image-download",
+    "csv",
+    "request"
+  ],
+  "author": "Dere Sagar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sagardere/downloadImages/issues"
+  },
+  "homepage": "https://github.com/sagardere/downloadImages#readme",
+  "dependencies": {
+    "request": "^2.87.0"
+  }
+}
